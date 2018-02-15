@@ -1,0 +1,26 @@
+{
+  "name": "restify-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "ava --verbose"
+  },
+  "keywords": [],
+  "author": "Mauricio Fraga Jr",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "dotenv": "^5.0.0",
+    "eslint": "^4.17.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mysql": "^2.15.0",
+    "restify": "^6.3.4",
+    "restify-cors-middleware": "^1.1.0"
+  }
+}
